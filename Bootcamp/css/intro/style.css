@@ -1,0 +1,55 @@
+/* * {
+    background-color: blueviolet;
+} */
+/* select all elements of the desired type in the document */
+h1 {
+    background-color: chartreuse;
+    color: crimson;
+}
+
+/* if you apply this it will apply to all of the same elements within the document */
+p {
+    background-color: blue;
+    color: darkmagenta;
+}
+
+/* id selector will select an element by its id and will take precident over the main section and make the id selector more important*/
+
+#p2 {
+    background-color: blueviolet;
+    color: bisque;
+}
+
+/* css will read the most recent declartion as the one to use even if you have the same tag further up it will select the one lower down */
+
+/* class element */
+.list {
+    background-color: aqua;
+    color: black;
+}
+
+.even {
+    background-color: blue;
+    color: cornsilk;
+}
+
+/* what you put before the curley brackets selects the element you want to customise */
+
+h1,
+h2,
+h3 {
+    background-color: deeppink;
+    color: darkblue;
+}
+
+/* font styling */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* you can align the text within your work with the text align selection */
+
+* {
+    text-align: center;
+}
