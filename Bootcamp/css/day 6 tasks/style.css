@@ -1,0 +1,30 @@
+* {
+    background-color: lavenderblush;
+}
+
+.heading {
+    background-color: darksalmon;
+    color: blueviolet;
+    height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    background-color: chocolate;
+    color: rgb(119, 1, 25);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#heading2 {
+    background-color: cornflowerblue;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 75px;
+}
+
+span {
+    background-color: aqua;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+}
