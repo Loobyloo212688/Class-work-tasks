@@ -1,0 +1,10 @@
+:root {
+    --bluePurple: #392F5A;
+    --paleBlue: #A8C7BB;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A8C7BB;
+
+}

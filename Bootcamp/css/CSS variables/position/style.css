@@ -1,0 +1,38 @@
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+
+}
+
+.box1 {
+    /*position: static;*/
+    /*position: relative;*/
+    /*position: fixed;*/
+    /* allows us to fix an element into a cerain position*/
+    /*top: 500px;
+    right: 0;*/
+    /*top: 500px;
+    right: 50px;*/
+    position: sticky;
+    top: 0;
+    /*right: 0;
+    left: 0;*/
+    /*bottom: 0;*/
+    /* sticky will position an element into its natural position but will stick it to a spisific position when scrolled past*/
+}
+
+.box2 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+}

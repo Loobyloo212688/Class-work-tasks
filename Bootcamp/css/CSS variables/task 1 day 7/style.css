@@ -1,0 +1,27 @@
+h1 {
+    color: darkblue;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    background-color: rgb(182, 127, 209);
+}
+
+.box1 {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100px;
+}
+
+.box2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.p1 {
+    margin-top: 150px;
+
+}
